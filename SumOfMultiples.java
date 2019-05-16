@@ -12,7 +12,7 @@ public class SumOfMultiples {
     private static int totalSumOfMultiples() {
         int totalSum = 0;
 
-//      set to avoid magic numbers
+//      set to avoid magic numbers, named below value as we only want numbers below 100000
         final int belowValue = 10000;
 
         for (int i = 0; i < belowValue; i++) {
